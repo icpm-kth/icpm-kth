@@ -14,10 +14,27 @@ The documentation of each respective module (tool) from our group can be found i
 
 ## trying to make links work
 ### div method
+
+```html
 <div w3-include-html="ToolsetFlowchart-fix.svg"></div>
+```
+
+<div w3-include-html="ToolsetFlowchart-fix.svg"></div>
+
 ### iframe method
+
+```html
 <iframe src="./ToolsetFlowchart-fix.svg" seamless></iframe>
+```
+
+<iframe src="./ToolsetFlowchart-fix.svg" seamless></iframe>
+
 ### #include method
+
+```html
+<!--#include file="./ToolsetFlowchart-fix.svg" -->
+```
+
 <!--#include file="./ToolsetFlowchart-fix.svg" -->
 
 
