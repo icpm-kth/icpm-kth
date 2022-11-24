@@ -8,5 +8,7 @@ The documentation of each respective module (tool) from our group can be found i
 - Uncertainty Quantification and Global Sensistivity Analyses (UQSA) https://github.com/icpm-kth/uqsa
 - etc
 
+[1] Lubitz, T., Hahn, J., Bergmann, F.T., Noor, E.,. Klipp, E, Liebermeister, W. (2016). SBtab: A flexible table format for data exchange in systems biology. Bioinformatics, 15;32(16), 2559-61
+
 ![Organizational Flowchart](ToolsetFlowchart.svg)
 
