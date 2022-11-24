@@ -10,5 +10,15 @@ The documentation of each respective module (tool) from our group can be found i
 
 [1] Lubitz, T., Hahn, J., Bergmann, F.T., Noor, E.,. Klipp, E, Liebermeister, W. (2016). SBtab: A flexible table format for data exchange in systems biology. Bioinformatics, 15;32(16), 2559-61
 
-![Organizational Flowchart](ToolsetFlowchart.svg)
+![Organizational Flowchart](ToolsetFlowchart-fix.svg)
+
+## trying to make links work
+### div method
+<div w3-include-html="ToolsetFlowchart-fix.svg"></div>
+### iframe method
+<iframe src="./ToolsetFlowchart-fix.svg" seamless></iframe>
+### #include method
+<!--#include file="./ToolsetFlowchart-fix.svg" -->
+
+
 
