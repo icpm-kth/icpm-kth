@@ -10,5 +10,24 @@ The documentation of each respective module (tool) from our group can be found i
 
 [1] Lubitz, T., Hahn, J., Bergmann, F.T., Noor, E.,. Klipp, E, Liebermeister, W. (2016). SBtab: A flexible table format for data exchange in systems biology. Bioinformatics, 15;32(16), 2559-61
 
+<figure>
 ![Organizational Flowchart](ToolsetFlowchart-fix.svg)
+<figcaption align="justify" width="80%" style="font-size: 90%"> This is a
+high level flowchart of common tasks in systems biology (and modelling
+in neuroscience). We require a storage format that is robust enough to
+survive being moved to other platforms and must be easy to parse by
+common tools, on various platforms and in many programming
+languages. The SBtab format can be read using such tools as `awk` and
+`sed` but is also easy to represent as a _data frame_ in *R* or an
+array of structs (matlab and GNU Octave have _structarrays_). We need
+to easily communicate with other groups and send them models and
+data. Another important task is simulation and parameter
+estimation. Both of these tasks require the translation of the
+biological model into a computational model (right hand side vector
+field of an ordinary differential equation or propensities for a
+stochastic algorithm such as the Gillespie Algorithm). Calibration and
+Analysis includes copmmon tasks such as *parameter estimation*,
+*global sensitivity analysis*, *prediction*; we are working on methods
+and implementations for these tasks.
+</figcaption> </figure>
 
