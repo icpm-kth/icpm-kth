@@ -5,7 +5,7 @@ We develop tools for data-driven building of subcellular biochemical signaling p
 The documentation for the SBtab format are here: https://github.com/tlubitz/SBtab
 
 The documentation of each respective module (tool) from our group can be found in the READ ME file of that repository, i.e.:
-- [icpm-kth/uqsa](https://github.com/icpm-kth/uqsa) Uncertainty antification and Global Sensistivity Analyses (UQSA)
+- [icpm-kth/uqsa](https://github.com/icpm-kth/uqsa) Uncertainty Qantification and global Sensistivity Analysis (UQSA)
 - [icpm-kth/SBtabVFGEN](https://github.com/icpm-kth/SBtabVFGEN) Processing of SBtab files and translating them into several common formats: vf, sbml, MOD, plain text; thus making them easy to convert further into computational models (for solvers)
 - [icpm-kth/rgsl](https://github.com/icpm-kth/rgsl) Solving ordianry differential equations using the solvers in the _GNU Scientific Library_, interfaced with R
 - [icpm-kth/RPN-derivative](https://github.com/icpm-kth/RPN-derivative) A set of command line tools to transform an ordinary differential equation (given as either vf file, or as plain text) to a language specific set of functions (currently in R, and C)
